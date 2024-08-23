@@ -56,7 +56,7 @@ public class Ahorcado {
             }
         }
         if (!palabraAdivina) {
-            System.out.println("Te quedaste sin intentos amiguito");
+            System.out.println("Te quedaste sin intentos amiguito, PERDISTE!");
         }
 
         scanner.close();
